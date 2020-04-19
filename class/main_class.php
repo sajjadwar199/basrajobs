@@ -14,7 +14,7 @@ class main
     public function connect()
     {
 
-        $con = mysqli_connect("sql211.eb2a.com", "eb2a_23950498", "naroto1998", "eb2a_23950498_basrajob"); 
+        $con = mysqli_connect("sql211.eb2a.com", "eb2a_23950498", "", "eb2a_23950498_basrajob"); 
         if (!$con) {
             echo "لم يتم الاتصال";
         } else {
